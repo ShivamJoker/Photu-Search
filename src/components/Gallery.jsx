@@ -53,7 +53,6 @@ const Gallery = ({ query }) => {
               urls={img.urls}
               handleClick={setCurrentImg}
               key={img.id}
-              onMouseOver={() => console.log("you are dumb")}
             />
           );
         })}
